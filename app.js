@@ -21,7 +21,7 @@ if (isNaN(a) && isNaN(b)) {
     
         resultado = a + b; 
         
-        document.getElementById('alerta').innerHTML = `<div class="alert alert-primary" role="alert"> Resultado: ${resultado} </div>`
+        document.getElementById('alerta').innerHTML = `<div class="alert alert-primary" role="alert"> Total: ${resultado} </div>`
     
         break;
     
@@ -29,7 +29,7 @@ if (isNaN(a) && isNaN(b)) {
     
         resultado = a - b; 
         
-        document.getElementById('alerta').innerHTML = `<div class="alert alert-primary" role="alert"> Resultado: ${resultado} </div>`
+        document.getElementById('alerta').innerHTML = `<div class="alert alert-primary" role="alert"> Residuo: ${resultado} </div>`
     
         break;
     
@@ -37,7 +37,7 @@ if (isNaN(a) && isNaN(b)) {
     
         resultado = a * b; 
         
-        document.getElementById('alerta').innerHTML = `<div class="alert alert-primary" role="alert"> Resultado: ${resultado} </div>`
+        document.getElementById('alerta').innerHTML = `<div class="alert alert-primary" role="alert"> Producto: ${resultado} </div>`
     
         break;
     
@@ -45,7 +45,7 @@ if (isNaN(a) && isNaN(b)) {
     
         resultado = a / b; 
         
-        document.getElementById('alerta').innerHTML = `<div class="alert alert-primary" role="alert"> Resultado: ${resultado} </div>`
+        document.getElementById('alerta').innerHTML = `<div class="alert alert-primary" role="alert"> Division: ${resultado} </div>`
     
         break;
     
